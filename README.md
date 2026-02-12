@@ -4,6 +4,7 @@ A high-performance scroll-driven product showcase built using **Next.js + Canvas
 The page renders a smooth 240-frame animation synced to scroll position to simulate a cinematic product reveal.
 
 Instead of traditional video, the animation is generated from image frames and drawn onto a canvas for better performance and control.
+https://scroll-animation-antigravity.vercel.app/
 
 ---
 

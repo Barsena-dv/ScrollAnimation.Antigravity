@@ -1,0 +1,25 @@
+node_modules
+.next
+dist
+build
+.env
+.env.local
+.cache
+coverage
+*.log
+*.sqlite
+*.db
+*.zip
+*.mp4
+*.mov
+*.exe
+*.dll
+__pycache__/
+venv/
+# animation frames
+public/images/product-scroll
+assets/frames
+*.png
+*.jpg
+*.jpeg
+*.webp

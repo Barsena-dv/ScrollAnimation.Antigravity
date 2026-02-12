@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--product-gradient, #fff);
+  transition: background 1s ease-in-out;
+}
+
+/* Custom Selection */
+::selection {
+  background-color: #f97316; /* orange-500 */
+  color: white;
+}
+
+/* Hide Scrollbar but keep functionality */
+/* Webkit agents */
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+/* Firefox */
+html {
+  scrollbar-width: none;
+}
